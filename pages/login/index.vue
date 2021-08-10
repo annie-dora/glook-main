@@ -60,7 +60,7 @@ export default {
                     // Signed in
                     var user = userCredential.user;
                     console.log(user)
-                    this.$router.push('/appointment');
+                    this.$router.push('/admin');
                     // ...
                 })
                 .catch((error) => {
@@ -92,8 +92,8 @@ export default {
 }
 .btn-primary {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color: #a34871 !important;
+    background-color:  #a34871 !important;
     text-transform: capitalize;
 }
 @media only screen and (max-width: 600px) {

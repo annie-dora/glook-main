@@ -1,19 +1,21 @@
 <template>
     <div>
         <div class="one">
-            <h1>Orders</h1>
+            <h1>Appointments</h1>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                        <th scope="col">Name</th>
+                        <th scope="col">Full Name</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Pickup Address</th>
+                        <th scope="col"> Service</th>
+                        <th scope="col">Phone</th>
+                        <!-- <th scope="col">Pickup Address</th>
                         <th scope="col">Dropoff Address</th>
                         <th scope="col">Freight Type</th>
-                        <th scope="col">Weight</th>
-                        <th scope="col">Pickup Date</th>
-                        <th scope="col">Pickup Time</th>
+                        <th scope="col">Weight</th> -->
+                        <th scope="col"> Date</th>
+                        <th scope="col"> Time</th>
                         <th scope="col">Delete</th>
                         </tr>
                     </thead>
@@ -22,10 +24,10 @@
                         
                         <td>{{tran.name}}</td>
                         <td>{{tran.email}}</td>
-                        <td>{{tran.pickup}}</td>
-                        <td>{{tran.dropoff}}</td>
                         <td>{{tran.type}}</td>
-                        <td>{{tran.weight}}</td>
+                        <td>{{tran.phone}}</td>
+                        <!-- <td>{{tran.type}}</td>
+                        <td>{{tran.weight}}</td> -->
                         <td>{{tran.date}}</td>
                         <td>{{tran.time}}</td>
                         <td><font-awesome-icon :icon="['fas', 'trash-alt']" @click.prevent="deletePost(id)" /></td>

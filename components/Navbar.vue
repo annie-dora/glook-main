@@ -1,8 +1,8 @@
 <template>
     <div class="container-fluid container_bg col fixed-top">
        <div class="container nav_padding">
-      <nav class="navbar navbar-expand-lg navbar-light mt-2">
-        <nuxt-link to ="/" class="navbar-brand"><img src="~/assets/icon-envelope-small@2x.png" alt="" srcset=""></nuxt-link>
+      <nav class="navbar navbar-expand-lg navbar-light mt-2 ">
+        <nuxt-link to ="/" class="navbar-brand"><img src="~/assets/thisi2.png" alt="" srcset=""></nuxt-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +34,7 @@ export default {
 <style scoped>
 .container_bg{
   padding: 1rem 1rem;
-  background-color: hsl(229, 31%, 21%);
+  /* background-color: hsl(229, 31%, 21%); */
 }
 .navbar-nav > li{
     margin-left: 2rem !important;
@@ -47,7 +47,7 @@ ul li a{
   transition:  2s;
 }
 li a:hover{
-    color : #f15f22 !important;
+    color : #a34871 !important;
 }
 .dropdown-menu > a .dropdown-item{
   color: black !important;
@@ -63,8 +63,8 @@ form{
 }
 .btn-dark {
     color: white;
-    border-color: #f15f22 !important;
-    background-color:  #f15f22 !important;
+    border-color: #a34871 !important;
+    background-color:  #a34871 !important;
     -webkit-transition: 2s; 
     text-transform: capitalize !important;
     transition:  2s;
@@ -83,7 +83,7 @@ form{
   transition:  2s;
 }
 .line_down li:hover{
-   border-bottom: 4px solid  #f15f22 !important;
+   border-bottom: 4px solid  #a34871 !important;
 }
 @media only screen and (max-width: 600px) {
 li{
